@@ -4,7 +4,7 @@ A CTF platform built using CTFd, preloaded with custom challenges across various
 Quick Start (with Docker)
 
 Clone this repository:
-git clone https://github.com/yourusername/MyCTF.git
+git clone https://github.com/lucky-hacks/Hackademic-CTF.git
 cd MyCTF
 
 Copy the environment file template:
