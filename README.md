@@ -31,7 +31,9 @@ Ready for self-hosted or team-based CTFs
 Admin Login
 
 After setup, log in using:
+
 Username: admin
+
 Password: admin
 You can reset it using the CTFd admin interface.
 
