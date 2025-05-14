@@ -20,3 +20,17 @@ Hackademic CTF is a Capture The Flag (CTF) platform built using CTFd, designed t
 
 5. Access the platform in your browser:
    URL: http://localhost:8000
+
+🛠 Features
+
+=>Challenge Management: Create and manage challenges with various types and categories.
+
+=>User Management: Support for individual and team-based competitions.
+
+=>Scoreboard: Real-time scoreboard with automatic tie resolution.
+
+=>Hints & Unlockables: Provide hints and unlockable challenges to guide participants.
+
+=>Customization: Easily extendable with plugins and themes.
+
+=>Deployment Options: Supports both Docker and manual setups.
