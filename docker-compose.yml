@@ -20,6 +20,7 @@ services:
       - .:/opt/CTFd:ro
     depends_on:
       - db
+      - cache
     networks:
         default:
         internal:
@@ -35,14 +36,13 @@ services:
       - ctfd
 
   db:
-    image: mariadb:10.11
+    image: mysql:5.7
     restart: always
     environment:
-      - MARIADB_ROOT_PASSWORD=ctfd
-      - MARIADB_USER=ctfd
-      - MARIADB_PASSWORD=ctfd
-      - MARIADB_DATABASE=ctfd
-      - MARIADB_AUTO_UPGRADE=1
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: ctfd
+      MYSQL_USER: ctfd
+      MYSQL_PASSWORD: ctfd
     volumes:
       - .data/mysql:/var/lib/mysql
     networks:
